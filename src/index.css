@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --default-font: 'Poppins';
+    --logo-font: 'Qwitcher Grypen';
+
+    --clr-primary: #6A4EA6;
+    --clr-secondary: #AF91D9;
+}
+
+body {
+    font-family: var(--default-font);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* ============ */
+/* Header area */
+/* ============ */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+/* logo */
+.logo-image {
+    width: 15%;
+}
+
+/* end-logo */
+
+/* navigation bar */
+.navBar {
+    display: flex;
+    gap: 1.5em;
+    font-size: .85rem;
+
+    font-weight: 500;
+}
+
+.active {
+    border-bottom: 2px solid black;
+}
+
+/* end-navigation bar */
+
+/* shortcuts */
+.shortcuts {
+    display: flex;
+    gap: 1em;
+}
+
+.shortcut-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+    border: none;
+    font-size: 1.5rem;
+    background: none;
+    /* color: var(--clr-text); */
+    cursor: pointer;
+}
+
+/* end-shortcuts */

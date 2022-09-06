@@ -1,0 +1,3 @@
+--clr-primary : #6A4EA6;
+--clr-secondary : #AF91D9;
+--clr-text : #DFE4F2 or white;
