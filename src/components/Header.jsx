@@ -1,15 +1,17 @@
 import { BsSuitHeart, BsCart3 } from 'react-icons/bs'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiOutlineClose } from 'react-icons/ai'
-import './header.css'
+import logo_image from '../images/logo.png'
 
 export default function Header({ mobileNavOpen, setMobileNavOpen }) {
 
-    const toggle = () => setMobileNavOpen(prev => !prev)
+    const toggle = () => {
+        setMobileNavOpen(prev => !prev)
+    }
 
     return (
         <header>
-            <img className='logo-image' src={process.env.PUBLIC_URL + '/images/logo.png'} alt="jenny's collection" />
+            <img className='logo-image' src={logo_image} alt="jenny's collection" />
             <nav className="navBar-container">
                 <ul className={`navBar ${mobileNavOpen && 'open'}`}>
                     <li className="navBar-item active">Home</li>

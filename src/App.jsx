@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Header from "./components/header/Header";
-// import Hero from "./components/Hero";
+import Header from "./components/Header";
+import Home from "./components/home/Home";
 
 export default function App() {
 
@@ -11,7 +11,7 @@ export default function App() {
       <Header
         mobileNavOpen={mobileNavOpen}
         setMobileNavOpen={setMobileNavOpen} />
-      {/* <Hero /> */}
+      <Home />
     </div>
   );
 }
