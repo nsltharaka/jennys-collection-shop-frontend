@@ -1,15 +1,17 @@
 import { BsSuitHeart, BsCart3 } from 'react-icons/bs'
-import logo from '../images/logo.png'
+import { GiHamburgerMenu } from 'react-icons/gi'
+import { AiOutlineClose } from 'react-icons/ai'
+import './header.css'
 
-export default function Header() {
+export default function Header({ mobileNavOpen, setMobileNavOpen }) {
+
+    const toggle = () => setMobileNavOpen(prev => !prev)
 
     return (
         <header>
-            <img className='logo-image' src={logo} alt="" />
-            {/* <h1 className="logo-main-text">Jenny's</h1>
-                <p className="logo-sub-text">collection</p> */}
+            <img className='logo-image' src={process.env.PUBLIC_URL + '/images/logo.png'} alt="jenny's collection" />
             <nav className="navBar-container">
-                <ul className="navBar">
+                <ul className={`navBar ${mobileNavOpen && 'open'}`}>
                     <li className="navBar-item active">Home</li>
                     <li className="navBar-item">About Us</li>
                     <li className="navBar-item">Products</li>
@@ -22,6 +24,10 @@ export default function Header() {
                 <button className="shortcut-button">
                     <BsCart3 />
                 </button>
+                {
+                    mobileNavOpen ? <AiOutlineClose className='mobileNav-toggle' onClick={toggle} />
+                        : <GiHamburgerMenu className='mobileNav-toggle' onClick={toggle} />
+                }
             </div>
         </header>
     )

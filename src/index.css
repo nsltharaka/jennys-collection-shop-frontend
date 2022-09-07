@@ -16,69 +16,13 @@
 
 body {
     font-family: var(--default-font);
+    overflow-x: hidden;
 }
 
 ul {
     list-style: none;
     padding: 0;
 }
-
-/* .container {
-    margin: 0 auto;
-    max-width: 1000px;
-} */
-
-/* ============ */
-/* Header area */
-/* ============ */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em 2em;
-}
-
-/* logo */
-.logo-image {
-    width: 10%;
-    max-width: 10%;
-}
-
-/* end-logo */
-
-/* navigation bar */
-.navBar {
-    display: flex;
-    gap: 1.5em;
-    font-weight: 500;
-}
-
-.active {
-    border-bottom: 2px solid black;
-}
-
-/* end-navigation bar */
-
-/* shortcuts */
-.shortcuts {
-    display: flex;
-    gap: 1em;
-}
-
-.shortcut-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-
-    border: none;
-    font-size: 1.5rem;
-    background: none;
-    cursor: pointer;
-}
-
-/* end-shortcuts */
 
 /* ============ */
 /* hero section */
