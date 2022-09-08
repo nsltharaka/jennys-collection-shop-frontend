@@ -67,7 +67,44 @@
 /* aboutUs section */
 /* ============ */
 
+.aboutUs {
+    margin-top: 1.5rem;
 
+    text-align: center;
+}
+
+.aboutUs-text {
+    padding: 0 1rem;
+}
+
+.aboutUs-title {
+    margin-bottom: .5rem;
+}
+
+.aboutUs-description {
+    margin-bottom: 1rem;
+}
+
+.aboutUs-button {
+    padding: .75em 1rem;
+    margin-bottom: 1rem;
+
+    border: none;
+    border-radius: 5px;
+    background-color: var(--clr-primary);
+    color: white;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+.aboutUs-button:hover {
+    background-color: var(--clr-primary-dark);
+}
+
+.aboutUs-image {
+    display: block;
+    width: 100%;
+}
 
 /* ======================= */
 /* For larger screen sizes */

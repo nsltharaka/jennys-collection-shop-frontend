@@ -27,7 +27,7 @@ export default function Header({ mobileNavOpen, setMobileNavOpen }) {
                     <BsCart3 />
                 </button>
                 {
-                    mobileNavOpen ? <AiOutlineClose className='mobileNav-toggle' onClick={toggle} />
+                    mobileNavOpen ? <AiOutlineClose className='mobileNav-toggle fixed' onClick={toggle} />
                         : <GiHamburgerMenu className='mobileNav-toggle' onClick={toggle} />
                 }
             </div>

@@ -74,7 +74,7 @@ header {
         background-color: white;
         box-shadow: 3px 0 50px 10px grey;
 
-        transition: transform 350ms ease-out;
+        transition: transform 100ms ease-out;
 
     }
 
@@ -85,5 +85,10 @@ header {
 
     .open {
         transform: translateX(0%);
+    }
+
+    .fixed {
+        position: fixed;
+        right: 10%;
     }
 }
