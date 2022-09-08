@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --default-font: 'Poppins';
+    --logo-font: 'Qwitcher Grypen';
+
+    --clr-primary: #6A4EA6;
+    --clr-secondary: #AF91D9;
+}
+
+body {
+    font-family: var(--default-font);
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}

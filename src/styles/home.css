@@ -1,0 +1,101 @@
+@import './index.css';
+
+/* ============ */
+/* hero section */
+/* ============ */
+
+.hero {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.mask {
+    position: absolute;
+    background-color: #333;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-image {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    top: 10%;
+    padding: 1em;
+
+    text-align: center;
+    color: white;
+}
+
+.hero-main-text {
+    font-size: 2rem;
+    line-height: 1em;
+    margin-bottom: 1rem;
+}
+
+.hero-sub-text {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.hero-action-button {
+
+    margin-top: 2em;
+    padding: 1em;
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 70);
+    font-size: .85rem;
+    font-weight: 700;
+
+}
+
+.hero-action-button:hover {
+    background-color: #ffc825;
+}
+
+/* ============ */
+/* aboutUs section */
+/* ============ */
+
+
+
+/* ======================= */
+/* For larger screen sizes */
+/* ======================= */
+
+@media (min-width:600px) {
+    .hero {
+        height: 600px;
+    }
+
+    .hero-text {
+        top: 20%;
+        left: 10%;
+        padding: 0 2rem;
+        width: 55%;
+        text-align: left;
+    }
+
+    .hero-main-text {
+        font-size: 3rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .hero-sub-text {
+        font-size: 1.5rem;
+    }
+
+    .hero-action-button {
+        font-size: 1rem;
+    }
+}
