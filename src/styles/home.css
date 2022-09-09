@@ -111,6 +111,11 @@
 /* ======================= */
 
 @media (min-width:600px) {
+
+    /* ============ */
+    /* hero section */
+    /* ============ */
+
     .hero {
         height: 600px;
     }
@@ -135,4 +140,29 @@
     .hero-action-button {
         font-size: 1rem;
     }
+
+    /* ============ */
+    /* aboutUs section */
+    /* ============ */
+
+    .aboutUs {
+        height: 600px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        padding: 0 4rem;
+    }
+
+    .aboutUs-image {
+        width: 50%;
+        height: 90%;
+        object-fit: cover;
+    }
+
+    .aboutUs-text {
+        text-align: left;
+    }
+
 }

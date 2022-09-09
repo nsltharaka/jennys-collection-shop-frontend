@@ -8,11 +8,11 @@ export default function App() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false)
 
   return (
-    <>
+    <div className="container">
       <Header
         mobileNavOpen={mobileNavOpen}
         setMobileNavOpen={setMobileNavOpen} />
       <Home />
-    </>
+    </div>
   );
 }
