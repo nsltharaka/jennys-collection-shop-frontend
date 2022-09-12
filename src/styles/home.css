@@ -83,6 +83,7 @@
 
 .aboutUs-description {
     margin-bottom: 1rem;
+    font-size: .85rem;
 }
 
 .aboutUs-button {
@@ -146,7 +147,8 @@
     /* ============ */
 
     .aboutUs {
-        height: 600px;
+        height: 450px;
+        margin-top: 3rem;
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
@@ -157,12 +159,16 @@
 
     .aboutUs-image {
         width: 50%;
-        height: 90%;
+        height: 100%;
         object-fit: cover;
     }
 
     .aboutUs-text {
         text-align: left;
+    }
+
+    .aboutUs-description {
+        font-size: 1rem;
     }
 
 }
