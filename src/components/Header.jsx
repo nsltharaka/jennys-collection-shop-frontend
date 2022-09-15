@@ -2,8 +2,11 @@ import { BsSuitHeart, BsCart3 } from 'react-icons/bs'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiOutlineClose } from 'react-icons/ai'
 import logo_image from '../images/logo.png'
+import useAppContext from '../useAppContext'
 
-export default function Header({ mobileNavOpen, setMobileNavOpen }) {
+export default function Header() {
+
+    const { mobileNavOpen, setMobileNavOpen } = useAppContext()
 
     const toggle = () => {
         setMobileNavOpen(prev => !prev)

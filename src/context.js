@@ -1,10 +1,19 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 
 const AppContext = createContext()
 
 const AppContextProvider = ({ children }) => {
+
+    const [mobileNavOpen, setMobileNavOpen] = useState(false)
+
     return (
-        <AppContext.Provider value={'hello world '}>
+        <AppContext.Provider value={
+            {
+                mobileNavOpen,
+                setMobileNavOpen,
+            }
+        }
+        >
             {children}
         </AppContext.Provider>
     )
