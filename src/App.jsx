@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Header from "./components/Header";
+import { AppContextProvider } from "./context";
 import Home from "./Home";
 import './styles/app.css';
 
@@ -8,11 +9,11 @@ export default function App() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false)
 
   return (
-    <div className="container">
+    <AppContextProvider>
       <Header
         mobileNavOpen={mobileNavOpen}
         setMobileNavOpen={setMobileNavOpen} />
       <Home />
-    </div>
+    </AppContextProvider>
   );
 }
