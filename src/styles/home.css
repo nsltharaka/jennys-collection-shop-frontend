@@ -130,6 +130,20 @@
     margin-bottom: 1rem;
 }
 
+.featured_products-button {
+    padding: .65em 1rem;
+    margin-bottom: 1rem;
+
+    border: none;
+    border-radius: 5px;
+    background-color: var(--clr-primary);
+    color: white;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
 .products-container {
     display: flex;
     gap: 1rem;

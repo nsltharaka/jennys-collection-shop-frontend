@@ -15,6 +15,7 @@ export default function FeaturedProducts() {
             <div className="featured_products-text">
                 <h1 className="featured_products-title">Our featured products</h1>
                 <p className="featured_products-description">Lorem ipsum dolor sit amet, cons adipisicing elit. Corporis, esse maxime suscipit ab qui facere nulla voluptas accusamus magnam voluptatibus inventore provident. Molestias vero quasi nemo vel provident porro unde?</p>
+                <button className="featured_products-button">See All</button>
             </div>
 
             <div className="products-container">
