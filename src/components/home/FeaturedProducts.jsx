@@ -1,6 +1,15 @@
 import Product from "./Product";
+import featured from "../../data/featuredProducts.json"
 
 export default function FeaturedProducts() {
+
+    const products = featured.map(product => <Product
+        key={product.id}
+        image={product.image}
+        title={product.title}
+        description={product.description}
+    />)
+
     return (
         <section className="featured_products">
             <div className="featured_products-text">
@@ -9,9 +18,7 @@ export default function FeaturedProducts() {
             </div>
 
             <div className="products-container">
-                <Product />
-                <Product />
-                <Product />
+                {products}
             </div>
 
         </section>

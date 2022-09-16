@@ -1,13 +1,13 @@
-export default function Product() {
+export default function Product({ image, title, description }) {
 
     return (
         <div className="product">
             <img className="product-image"
-                src={process.env.PUBLIC_URL + '/images/featured/tail_scrunchie.jpg'}
+                src={process.env.PUBLIC_URL + `/images/featured/${image}`}
                 alt="" />
             <div className="product-text">
-                <h3>Tail Scrunchies</h3>
-                <p>Lorem ipsum dolor sit amet consr adipisicing elit. Labore, in quis minus alias</p>
+                <h3>{title}</h3>
+                <p>{description}</p>
             </div>
         </div>
     )

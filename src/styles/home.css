@@ -96,6 +96,7 @@
     color: white;
     font-family: inherit;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .aboutUs-button:hover {

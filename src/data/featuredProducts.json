@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "scrunchie.jpg",
+        "title": "Scrunchie",
+        "description": "an adjustable scrunchie"
+    },
+    {
+        "id": 2,
+        "image": "tail_scrunchie.jpg",
+        "title": "Tail Scrunchie",
+        "description": "Lorem ipsum dolor sit amet consr adipisicing elit. Labore, in quis minus alias"
+    },
+    {
+        "id": 3,
+        "image": "voolband.jpg",
+        "title": "Vool Band",
+        "description": "a simple Vool band"
+    },
+    {
+        "id": 4,
+        "image": "head_band.jpg",
+        "title": "Head Band",
+        "description": "a simple Head band"
+    }
+]
