@@ -60,9 +60,116 @@ header {
 /* Footer area */
 /* ============ */
 
-footer {
+.footer-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
     color: white;
     background-color: var(--clr-primary-dark);
+}
+
+.contact-us-form {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.contact-us-form p {
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+
+.contact-us-form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-form input,
+textarea {
+    font-family: inherit;
+    font-size: .8rem;
+    margin-bottom: .5rem;
+    height: 2.3rem;
+    border-radius: 3px;
+    border: none;
+    text-indent: .75rem;
+}
+
+textarea {
+    display: block;
+    height: 10rem;
+}
+
+.form-submit-button {
+    border: none;
+    background-color: white;
+    font-family: inherit;
+    font-weight: 500;
+    width: 100px;
+    padding: .75rem 1.5rem;
+    border-radius: 5px;
+}
+
+.form-submit-button:hover {
+    background-color: var(--clr-secondary);
+    cursor: pointer;
+}
+
+.quick-links {
+    margin-bottom: .7rem;
+}
+
+.quick-links li {
+    margin-top: .4rem;
+    font-size: .8rem;
+}
+
+.footer-logo {
+    margin-bottom: 1rem;
+}
+
+.footer-logo-main {
+    font-size: 4rem;
+    font-family: var(--logo-font);
+}
+
+.footer-logo-sub {
+    font-weight: 300;
+    font-size: .8rem;
+    letter-spacing: .45rem;
+}
+
+.contact-info {
+    font-size: .9rem;
+}
+
+.contact-info .icon {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.contact-info p {
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: .2rem;
+}
+
+.contact-info ul {
+    margin-top: .5rem;
+    display: flex;
+    gap: 1rem;
+    font-size: 2rem;
+}
+
+.footer-info {
+    padding: .5rem 1em;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    background-color: var(--clr-primary-extra-dark);
 }
 
 @media (max-width:600px) {
@@ -99,5 +206,16 @@ footer {
     .fixed {
         position: fixed;
         right: 5%;
+    }
+}
+
+@media (min-width:600px) {
+
+    .footer-content {
+        flex-direction: row;
+    }
+
+    .column {
+        flex: 1 0 0;
     }
 }
