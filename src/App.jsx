@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { AppContextProvider } from "./context";
 import Home from "./Home";
@@ -9,6 +10,7 @@ export default function App() {
     <AppContextProvider>
       <Header />
       <Home />
+      <Footer />
     </AppContextProvider>
   );
 }

@@ -56,6 +56,15 @@ header {
 
 /* end-shortcuts */
 
+/* ============ */
+/* Footer area */
+/* ============ */
+
+footer {
+    color: white;
+    background-color: var(--clr-primary-dark);
+}
+
 @media (max-width:600px) {
 
     .navBar {

@@ -192,42 +192,40 @@
 
 .feedbacks {
     margin-top: 1.5rem;
+    background-color: var(--clr-secondary);
+    padding: 1.5rem 1rem;
+    height: auto;
 }
 
 .feedbacks-text {
     text-align: center;
-    padding: 0 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .feedbacks-title {
-    margin-bottom: 1.5rem;
     line-height: 1.8rem;
 }
 
 .feedbacks-container {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 1rem;
-    padding: 0 1rem;
 }
 
 /* FeedBack component */
 .feedback {
-    flex-grow: 1;
-    width: 300px;
-    max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--clr-secondary);
+    background-color: white;
     padding: .5rem 1rem;
     text-align: center;
 }
 
 .feedback-description {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
@@ -348,11 +346,21 @@
     /* ================== */
 
     .feedbacks {
-        margin-top: 3rem;
+        padding: 2rem 2rem;
+        height: 400px;
     }
 
     .feedbacks-container {
-        height: 200px;
-        padding: 0 2rem;
+        height: 80%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .feedback {
+        flex-basis: 30%;
+    }
+
+    .feedback-description {
+        font-size: 1.5rem;
     }
 }
