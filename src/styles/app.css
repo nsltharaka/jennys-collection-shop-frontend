@@ -107,7 +107,7 @@ textarea {
     font-family: inherit;
     font-weight: 500;
     width: 100px;
-    padding: .75rem 1.5rem;
+    padding: .5rem 1.5rem;
     border-radius: 5px;
 }
 
@@ -213,9 +213,27 @@ textarea {
 
     .footer-content {
         flex-direction: row;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
 
     .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         flex: 1 0 0;
+    }
+
+    .column h3 {
+        font-size: 1.3rem;
+    }
+
+    .social-links {
+        align-items: flex-end;
+    }
+
+    .footer-logo {
+        margin-right: 3rem;
     }
 }
