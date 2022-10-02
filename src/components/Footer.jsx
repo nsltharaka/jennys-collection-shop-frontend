@@ -2,6 +2,7 @@ import { ImPhone } from "react-icons/im"
 import { HiMail } from "react-icons/hi"
 import { RiWhatsappFill } from "react-icons/ri"
 import { AiFillFacebook, AiFillInstagram } from "react-icons/ai"
+import { Link } from "react-router-dom"
 
 
 export default function Footer() {
@@ -21,9 +22,9 @@ export default function Footer() {
                 <div className="column quick-links">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li>Home</li>
-                        <li>Products</li>
-                        <li>About Us</li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/products">Products</Link></li>
+                        <li><Link to="/about">About Us</Link></li>
                     </ul>
                 </div>
                 <div className="column social-links">

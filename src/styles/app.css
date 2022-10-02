@@ -125,6 +125,10 @@ textarea {
     font-size: .8rem;
 }
 
+.quick-links li a {
+    color: white;
+}
+
 .footer-logo {
     margin-bottom: 1rem;
 }
