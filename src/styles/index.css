@@ -19,7 +19,7 @@
 body {
     font-family: var(--default-font);
     overflow-x: hidden;
-    max-width: 1280px;
+    /* max-width: 1280px; */
     margin: 0 auto;
 }
 
