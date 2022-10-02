@@ -3,6 +3,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiOutlineClose } from 'react-icons/ai'
 import logo_image from '../images/logo.png'
 import useAppContext from '../useAppContext'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
 
@@ -12,14 +13,24 @@ export default function Header() {
         setMobileNavOpen(prev => !prev)
     }
 
+    const closeNav = () => {
+        setMobileNavOpen(false)
+    }
+
     return (
         <header>
             <img className='logo-image' src={logo_image} alt="jenny's collection" />
             <nav className="navBar-container">
                 <ul className={`navBar ${mobileNavOpen && 'open'}`}>
-                    <li className="navBar-item active">Home</li>
-                    <li className="navBar-item">About Us</li>
-                    <li className="navBar-item">Products</li>
+                    <li className="navBar-item active" onClick={closeNav}>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li className="navBar-item" onClick={closeNav}>
+                        <Link to="/about" >About Us</Link>
+                    </li>
+                    <li className="navBar-item" onClick={closeNav}>
+                        <Link to="/products" >Products</Link>
+                    </li>
                 </ul>
             </nav>
             <div className="shortcuts">
