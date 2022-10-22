@@ -1,0 +1,88 @@
+@import './index.css';
+
+/* ****************** */
+/* Owner Info section */
+/* ****************** */
+.ownerInfo {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ownerInfo-image {
+    display: block;
+    border-radius: 50%;
+    width: 65%;
+    align-self: center;
+}
+
+.ownerInfo-text {
+    margin-top: 1rem;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.ownerInfo-text--title {
+    margin-bottom: .7rem;
+}
+
+/* ****************** */
+/* Mission and Vision */
+/* ****************** */
+
+.mission-vision {
+    text-align: center;
+    margin-top: 1.5rem;
+    padding: 0 .5rem;
+}
+
+.mission {
+    margin-bottom: 1.5rem;
+    padding: 1rem 1rem;
+    background-color: var(--clr-secondary);
+}
+
+/* *********************** */
+/* for larger screen sizes */
+/* *********************** */
+@media (min-width : 600px) {
+
+    .ownerInfo {
+        padding: 0 4rem;
+        margin-bottom: 4rem;
+        margin-top: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ownerInfo-image {
+        width: 30%;
+    }
+
+    .ownerInfo-text {
+        font-size: 1.1rem;
+        width: 80%;
+        max-width: 700px;
+    }
+
+    .mission-vision {
+        padding: 0 4rem;
+        margin-bottom: 4rem;
+        display: flex;
+        gap: 4rem;
+        justify-content: center;
+    }
+
+    .mission {
+        max-width: 500px;
+        margin-bottom: 0;
+    }
+
+    .mission-title {
+        margin-bottom: 1rem;
+    }
+
+    .mission-desc {
+        font-size: 1.1rem;
+    }
+}
