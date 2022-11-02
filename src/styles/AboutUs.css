@@ -42,6 +42,15 @@
     background-color: var(--clr-secondary);
 }
 
+/* ******************** */
+/* Location, Google map */
+/* ******************** */
+.location-map {
+    height: 450px;
+    width: 100%;
+    display: block;
+}
+
 /* *********************** */
 /* for larger screen sizes */
 /* *********************** */
