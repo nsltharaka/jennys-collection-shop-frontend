@@ -1,0 +1,97 @@
+@import './index.css';
+
+/* *********** */
+/* search area */
+/* *********** */
+.search {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+.search-icon {
+    font-size: 1.3rem;
+    margin-right: .3em;
+}
+
+.search-bar {
+    height: 2rem;
+    border: none;
+    font-family: var(--default-font);
+    font-size: .9rem;
+}
+
+.search-bar:focus {
+    outline: none;
+}
+
+/* ************ */
+/* Item section */
+/* ************ */
+.itemsSection {
+    padding: .5rem 0;
+    margin-bottom: 2rem;
+}
+
+.itemsSection-title {
+    margin-bottom: .7rem;
+    margin-left: 1rem;
+}
+
+.items-container {
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom: .8rem;
+}
+
+/* **** */
+/* Item */
+/* ***  */
+.item {
+    width: 230px;
+    box-shadow: 1px 1px 10px 2px silver;
+    flex: 0 0 230px;
+    margin-left: 1rem;
+}
+
+.item:last-child {
+    margin-right: 1rem;
+}
+
+.item-image {
+    display: block;
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.item-text {
+    width: 100%;
+    text-align: center;
+    padding: .5rem .5rem;
+}
+
+.item-price {
+    font-size: .9rem;
+    margin-bottom: .5rem;
+}
+
+.item-add--button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: .5rem 0;
+    border: none;
+    background-color: var(--clr-primary);
+    color: white;
+    font-family: var(--default-font);
+    font-size: .9rem;
+}
+
+.item-add--icon {
+    margin-right: .5rem;
+}
