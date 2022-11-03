@@ -53,7 +53,8 @@
 .item {
     width: 230px;
     box-shadow: 1px 1px 10px 2px silver;
-    flex: 0 0 230px;
+    flex-grow: 0;
+    flex-shrink: 0;
     margin-left: 1rem;
 }
 
@@ -72,6 +73,11 @@
     width: 100%;
     text-align: center;
     padding: .5rem .5rem;
+}
+
+.item-title {
+    line-height: 2.5ex;
+    height: 5ex;
 }
 
 .item-price {

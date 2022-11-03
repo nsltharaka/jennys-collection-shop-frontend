@@ -1,16 +1,21 @@
 import Item from "./Item";
 
-export default function ItemsSection() {
+export default function ItemsSection({ category, data }) {
+
+    const components = data.map(
+        i => <Item
+            key={i.id}
+            image={i.image}
+            title={i.title}
+            price={i.price}
+        />
+    )
+
     return (
         <section className="itemsSection">
-            <h1 className="itemsSection-title">Head Bands</h1>
-            {/* renders an array of items */}
+            <h1 className="itemsSection-title">{category}</h1>
             <div className="items-container">
-                <Item
-                    image={"head_band.jpg"}
-                    title={"Head Band - Navy Blue"}
-                    price={"180.00"}
-                />
+                {components}
             </div>
         </section>
     )
