@@ -1,5 +1,69 @@
 [
     {
+        "category": "Scrunchies",
+        "items": [
+            {
+                "id": "0",
+                "image": "scrunchie-green.jpg",
+                "title": "Scrunchie - Dark Green",
+                "price": "160.00"
+            },
+            {
+                "id": "1",
+                "image": "scrunchie-blue.jpg",
+                "title": "Scrunchie - Blue",
+                "price": "160.00"
+            },
+            {
+                "id": "2",
+                "image": "scrunchie-silver.jpg",
+                "title": "Scrunchie - Silver",
+                "price": "160.00"
+            },
+            {
+                "id": "3",
+                "image": "scrunchie-red.jpg",
+                "title": "Scrunchie - Red",
+                "price": "160.00"
+            },
+            {
+                "id": "4",
+                "image": "scrunchie-purple.jpg",
+                "title": "Scrunchie - Purple",
+                "price": "160.00"
+            },
+            {
+                "id": "5",
+                "image": "scrunchie-yellow.jpg",
+                "title": "Scrunchie - Yellow",
+                "price": "160.00"
+            }
+        ]
+    },
+    {
+        "category": "Tail Scrunchies",
+        "items": [
+            {
+                "id": "0",
+                "image": "tail_scrunchie-yellow.jpg",
+                "title": "Tail Scrunchie - Yellow",
+                "price": "40.00"
+            },
+            {
+                "id": "2",
+                "image": "tail_scrunchie-purple.jpg",
+                "title": "Tail Scrunchie - Purple",
+                "price": "40.00"
+            },
+            {
+                "id": "1",
+                "image": "tail_scrunchie-red.jpg",
+                "title": "Tail Scrunchie - Red",
+                "price": "40.00"
+            }
+        ]
+    },
+    {
         "category": "Head Band",
         "items": [
             {
@@ -10,20 +74,27 @@
             },
             {
                 "id": "1",
+                "image": "head_band-blue.jpg",
+                "title": "Head Band - Blue",
+                "price": "180.00"
+            },
+            {
+                "id": "2",
+                "image": "head_band-pink.jpg",
+                "title": "Head Band - Pink",
+                "price": "180.00"
+            },
+            {
+                "id": "3",
+                "image": "head_band-white.jpg",
+                "title": "Head Band - White",
+                "price": "180.00"
+            },
+            {
+                "id": "4",
                 "image": "head_band-orange.jpg",
                 "title": "Head Band - Orange",
                 "price": "180.00"
-            }
-        ]
-    },
-    {
-        "category": "Scrunchies",
-        "items": [
-            {
-                "id": "0",
-                "image": "scrunchie.jpg",
-                "title": "Scrunchie - Dark Green",
-                "price": "160.00"
             }
         ]
     },
@@ -35,17 +106,6 @@
                 "image": "boolband.jpg",
                 "title": "Bool Band - a lot",
                 "price": "80.00"
-            }
-        ]
-    },
-    {
-        "category": "Tail Scrunchies",
-        "items": [
-            {
-                "id": "0",
-                "image": "tail_scrunchie.jpg",
-                "title": "Tail Scrunchie",
-                "price": "40.00"
             }
         ]
     }
