@@ -8,15 +8,15 @@ const AppContextProvider = ({ children }) => {
     const [mobileNavOpen, setMobileNavOpen] = useState(false)
 
     // search text
-    const [searchText, setSearchText] = useState("");
+    const [searchTerm, setSearchTerm] = useState("");
 
     return (
         <AppContext.Provider value={
             {
                 mobileNavOpen,
                 setMobileNavOpen,
-                searchText,
-                setSearchText,
+                searchTerm,
+                setSearchTerm,
             }
         }
         >

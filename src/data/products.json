@@ -5,37 +5,37 @@
             {
                 "id": "scr-green",
                 "image": "scrunchie-green.jpg",
-                "title": "Scrunchie - Dark Green",
+                "title": "scrunchie - dark green",
                 "price": "160.00"
             },
             {
                 "id": "scr-blue",
                 "image": "scrunchie-blue.jpg",
-                "title": "Scrunchie - Blue",
+                "title": "scrunchie - blue",
                 "price": "160.00"
             },
             {
                 "id": "scr-silver",
                 "image": "scrunchie-silver.jpg",
-                "title": "Scrunchie - Silver",
+                "title": "scrunchie - silver",
                 "price": "160.00"
             },
             {
                 "id": "scr-red",
                 "image": "scrunchie-red.jpg",
-                "title": "Scrunchie - Red",
+                "title": "scrunchie - red",
                 "price": "160.00"
             },
             {
                 "id": "scr-purple",
                 "image": "scrunchie-purple.jpg",
-                "title": "Scrunchie - Purple",
+                "title": "scrunchie - purple",
                 "price": "160.00"
             },
             {
                 "id": "scr-yellow",
                 "image": "scrunchie-yellow.jpg",
-                "title": "Scrunchie - Yellow",
+                "title": "scrunchie - yellow",
                 "price": "160.00"
             }
         ]
@@ -46,25 +46,25 @@
             {
                 "id": "t-scr-yellow",
                 "image": "tail_scrunchie-yellow.jpg",
-                "title": "Tail Scrunchie - Yellow",
+                "title": "tail scrunchie - yellow",
                 "price": "40.00"
             },
             {
                 "id": "t-scr-purple",
                 "image": "tail_scrunchie-purple.jpg",
-                "title": "Tail Scrunchie - Purple",
+                "title": "tail scrunchie - purple",
                 "price": "40.00"
             },
             {
                 "id": "t-scr-lightGreen",
                 "image": "tail_scrunchie-lightGreen.jpg",
-                "title": "Tail Scrunchie - Light Green",
+                "title": "tail scrunchie - light green",
                 "price": "40.00"
             },
             {
                 "id": "t-scr-red",
                 "image": "tail_scrunchie-red.jpg",
-                "title": "Tail Scrunchie - Red",
+                "title": "tail scrunchie - red",
                 "price": "40.00"
             }
         ]
@@ -75,31 +75,31 @@
             {
                 "id": "hb-navyblue",
                 "image": "head_band-NavyBlue.jpg",
-                "title": "Head Band - Navy Blue",
+                "title": "head band - navy blue",
                 "price": "180.00"
             },
             {
                 "id": "hb-blue",
                 "image": "head_band-blue.jpg",
-                "title": "Head Band - Blue",
+                "title": "head band - blue",
                 "price": "180.00"
             },
             {
                 "id": "hb-pink",
                 "image": "head_band-pink.jpg",
-                "title": "Head Band - Pink",
+                "title": "head band - pink",
                 "price": "180.00"
             },
             {
                 "id": "hb-white",
                 "image": "head_band-white.jpg",
-                "title": "Head Band - White",
+                "title": "head band - white",
                 "price": "180.00"
             },
             {
                 "id": "hb-orange",
                 "image": "head_band-orange.jpg",
-                "title": "Head Band - Orange",
+                "title": "head band - orange",
                 "price": "180.00"
             }
         ]
@@ -110,31 +110,31 @@
             {
                 "id": "ht-black",
                 "image": "hair_tie-black.jpg",
-                "title": "Hair Tie - Black",
+                "title": "hair tie - black",
                 "price": "30.00"
             },
             {
                 "id": "ht-green",
                 "image": "hair_tie-green.jpg",
-                "title": "Hair Tie - Green",
+                "title": "hair tie - green",
                 "price": "30.00"
             },
             {
                 "id": "ht-yellow",
                 "image": "hair_tie-yellow.jpg",
-                "title": "Hair Tie - Yellow",
+                "title": "hair tie - yellow",
                 "price": "30.00"
             },
             {
                 "id": "ht-red",
                 "image": "hair_tie-red.jpg",
-                "title": "Hair Tie - Red",
+                "title": "hair tie - red",
                 "price": "30.00"
             },
             {
                 "id": "ht-brown",
                 "image": "hair_tie-brown.jpg",
-                "title": "Hair Tie - Brown",
+                "title": "hair tie - brown",
                 "price": "30.00"
             }
         ]
