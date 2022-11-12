@@ -3,37 +3,37 @@
         "category": "Scrunchies",
         "items": [
             {
-                "id": "0",
+                "id": "scr-green",
                 "image": "scrunchie-green.jpg",
                 "title": "Scrunchie - Dark Green",
                 "price": "160.00"
             },
             {
-                "id": "1",
+                "id": "scr-blue",
                 "image": "scrunchie-blue.jpg",
                 "title": "Scrunchie - Blue",
                 "price": "160.00"
             },
             {
-                "id": "2",
+                "id": "scr-silver",
                 "image": "scrunchie-silver.jpg",
                 "title": "Scrunchie - Silver",
                 "price": "160.00"
             },
             {
-                "id": "3",
+                "id": "scr-red",
                 "image": "scrunchie-red.jpg",
                 "title": "Scrunchie - Red",
                 "price": "160.00"
             },
             {
-                "id": "4",
+                "id": "scr-purple",
                 "image": "scrunchie-purple.jpg",
                 "title": "Scrunchie - Purple",
                 "price": "160.00"
             },
             {
-                "id": "5",
+                "id": "scr-yellow",
                 "image": "scrunchie-yellow.jpg",
                 "title": "Scrunchie - Yellow",
                 "price": "160.00"
@@ -44,19 +44,25 @@
         "category": "Tail Scrunchies",
         "items": [
             {
-                "id": "0",
+                "id": "t-scr-yellow",
                 "image": "tail_scrunchie-yellow.jpg",
                 "title": "Tail Scrunchie - Yellow",
                 "price": "40.00"
             },
             {
-                "id": "2",
+                "id": "t-scr-purple",
                 "image": "tail_scrunchie-purple.jpg",
                 "title": "Tail Scrunchie - Purple",
                 "price": "40.00"
             },
             {
-                "id": "1",
+                "id": "t-scr-lightGreen",
+                "image": "tail_scrunchie-lightGreen.jpg",
+                "title": "Tail Scrunchie - Light Green",
+                "price": "40.00"
+            },
+            {
+                "id": "t-scr-red",
                 "image": "tail_scrunchie-red.jpg",
                 "title": "Tail Scrunchie - Red",
                 "price": "40.00"
@@ -64,34 +70,34 @@
         ]
     },
     {
-        "category": "Head Band",
+        "category": "Head Bands",
         "items": [
             {
-                "id": "0",
+                "id": "hb-navyblue",
                 "image": "head_band-NavyBlue.jpg",
                 "title": "Head Band - Navy Blue",
                 "price": "180.00"
             },
             {
-                "id": "1",
+                "id": "hb-blue",
                 "image": "head_band-blue.jpg",
                 "title": "Head Band - Blue",
                 "price": "180.00"
             },
             {
-                "id": "2",
+                "id": "hb-pink",
                 "image": "head_band-pink.jpg",
                 "title": "Head Band - Pink",
                 "price": "180.00"
             },
             {
-                "id": "3",
+                "id": "hb-white",
                 "image": "head_band-white.jpg",
                 "title": "Head Band - White",
                 "price": "180.00"
             },
             {
-                "id": "4",
+                "id": "hb-orange",
                 "image": "head_band-orange.jpg",
                 "title": "Head Band - Orange",
                 "price": "180.00"
@@ -99,13 +105,37 @@
         ]
     },
     {
-        "category": "Bool Bands",
+        "category": "Hair Ties",
         "items": [
             {
-                "id": "0",
-                "image": "boolband.jpg",
-                "title": "Bool Band - a lot",
-                "price": "80.00"
+                "id": "ht-black",
+                "image": "hair_tie-black.jpg",
+                "title": "Hair Tie - Black",
+                "price": "30.00"
+            },
+            {
+                "id": "ht-green",
+                "image": "hair_tie-green.jpg",
+                "title": "Hair Tie - Green",
+                "price": "30.00"
+            },
+            {
+                "id": "ht-yellow",
+                "image": "hair_tie-yellow.jpg",
+                "title": "Hair Tie - Yellow",
+                "price": "30.00"
+            },
+            {
+                "id": "ht-red",
+                "image": "hair_tie-red.jpg",
+                "title": "Hair Tie - Red",
+                "price": "30.00"
+            },
+            {
+                "id": "ht-brown",
+                "image": "hair_tie-brown.jpg",
+                "title": "Hair Tie - Brown",
+                "price": "30.00"
             }
         ]
     }
