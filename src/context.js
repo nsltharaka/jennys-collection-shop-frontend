@@ -10,6 +10,9 @@ const AppContextProvider = ({ children }) => {
     // search text
     const [searchTerm, setSearchTerm] = useState("");
 
+    // cart items
+    const [cartItems, setCartItems] = useState([]);
+
     return (
         <AppContext.Provider value={
             {
@@ -17,6 +20,8 @@ const AppContextProvider = ({ children }) => {
                 setMobileNavOpen,
                 searchTerm,
                 setSearchTerm,
+                cartItems,
+                setCartItems,
             }
         }
         >

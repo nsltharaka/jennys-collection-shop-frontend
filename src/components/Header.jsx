@@ -39,9 +39,11 @@ export default function Header() {
                 <button className="shortcut-button">
                     <BsSuitHeart />
                 </button>
-                <button className="shortcut-button">
-                    <BsCart3 />
-                </button>
+                <Link to="/cart">
+                    <button className="shortcut-button">
+                        <BsCart3 />
+                    </button>
+                </Link>
                 {
                     mobileNavOpen ? <AiOutlineClose className='mobileNav-toggle fixed' onClick={toggle} />
                         : <GiHamburgerMenu className='mobileNav-toggle' onClick={toggle} />
