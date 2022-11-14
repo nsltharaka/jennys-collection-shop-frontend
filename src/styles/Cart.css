@@ -13,22 +13,27 @@
     box-shadow: 1px 1px 10px 2px silver;
     margin-bottom: 1rem;
     max-width: 700px;
+    height: 100px;
 }
 
 .content {
     width: 90%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .image_title {
+    height: 100%;
+    width: 75%;
     display: flex;
     gap: 1.5rem;
     align-items: center;
 }
 
 .cartItem-image {
+    flex-shrink: 0;
     display: block;
     width: 100px;
     height: 100%;

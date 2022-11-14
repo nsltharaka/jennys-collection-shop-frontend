@@ -1,4 +1,5 @@
 import { createContext, useState } from "react";
+import items from "./data/products.json"
 
 const AppContext = createContext()
 
@@ -16,6 +17,7 @@ const AppContextProvider = ({ children }) => {
     return (
         <AppContext.Provider value={
             {
+                items,
                 mobileNavOpen,
                 setMobileNavOpen,
                 searchTerm,
