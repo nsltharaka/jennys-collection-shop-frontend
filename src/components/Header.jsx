@@ -36,9 +36,11 @@ export default function Header() {
                 </ul>
             </nav>
             <div className="shortcuts">
-                <button className="shortcut-button">
-                    <BsSuitHeart />
-                </button>
+                <a href="https://www.instagram.com/_the_hanger__lk" target="_blank" rel="noreferrer">
+                    <button className="shortcut-button">
+                        <BsSuitHeart />
+                    </button>
+                </a>
                 <Link to="/cart">
                     <button className="shortcut-button">
                         <BsCart3 />
