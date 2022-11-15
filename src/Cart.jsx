@@ -28,7 +28,7 @@ export default function Cart() {
                 </div>
                 <div className="cart-buttons">
                     <button className="cart-btn placeOrder">Place Order</button>
-                    <button className="cart-btn continue"><Link to="/products">Continue Shopping</Link></button>
+                    <Link to="/products"><button className="cart-btn continue">Continue Shopping</button></Link>
                 </div>
             </div>
             :

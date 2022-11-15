@@ -2,7 +2,7 @@
 
 /* cart */
 .cart {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem;
 }
 
 .subTotal {
@@ -12,19 +12,21 @@
 }
 
 .cart-buttons {
-    display: flex;
-    gap: .5rem;
-    flex-direction: column;
-    width: 250px;
+    width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
 }
 
 .cart-btn {
-    padding: .7rem;
-    border: none;
+    width: 100%;
+    padding: 1rem;
     background-color: var(--clr-secondary);
+    border: none;
     font-family: var(--default-font);
-    font-weight: 500;
+    font-weight: 700;
+    font-size: .8rem;
     cursor: pointer;
 }
 
@@ -114,13 +116,12 @@
     }
 
     .cart-buttons {
-        flex-direction: row;
-        gap: 1rem;
         width: 400px;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .cart-btn {
-        flex: 1 0 0;
-        padding: 1rem .7rem;
+        width: 160px;
     }
 }
