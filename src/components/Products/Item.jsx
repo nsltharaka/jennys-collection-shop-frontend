@@ -25,7 +25,7 @@ export default function Item({ id, image, title, price }) {
             }, ...prev])
         }
 
-        setButtonText("Added")
+        setButtonText("Added!")
         setTimeout(() => {
             setButtonText("Add To Cart")
         }, 500);
