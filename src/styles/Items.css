@@ -107,3 +107,14 @@
 .item-add--icon {
     margin-right: .5rem;
 }
+
+@media (min-width:600px) {
+    .items-container {
+        overflow-x: hidden;
+        flex-wrap: wrap;
+    }
+
+    .item {
+        margin-bottom: 1.2rem;
+    }
+}
