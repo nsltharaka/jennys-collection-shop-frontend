@@ -101,6 +101,12 @@
     font-weight: 700;
 }
 
+.btn-continueShopping:hover,
+.btn-continueShopping:active {
+    background-color: var(--clr-primary);
+    color: white;
+}
+
 @media (min-width : 600px) {
     .cartItem {
         margin: 0 auto;

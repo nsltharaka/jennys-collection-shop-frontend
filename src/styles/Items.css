@@ -96,6 +96,12 @@
     color: white;
     font-family: var(--default-font);
     font-size: .9rem;
+    cursor: pointer;
+}
+
+.item-add--button:hover,
+.item-add--button:active {
+    background-color: var(--clr-primary-dark);
 }
 
 .item-add--icon {
