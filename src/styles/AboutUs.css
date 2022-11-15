@@ -26,25 +26,14 @@
     margin-bottom: .7rem;
 }
 
-/* ****************** */
-/* Mission and Vision */
-/* ****************** */
-
-.mission-vision {
-    text-align: center;
-    margin-top: 1.5rem;
-    padding: 0 .5rem;
-}
-
-.mission {
-    margin-bottom: 1.5rem;
-    padding: 1rem 1rem;
-    background-color: var(--clr-secondary);
-}
-
 /* ******************** */
 /* Location, Google map */
 /* ******************** */
+.location-desc {
+    margin-bottom: .7rem;
+    text-align: center;
+}
+
 .location-map {
     height: 450px;
     width: 100%;
@@ -72,26 +61,5 @@
         font-size: 1.1rem;
         width: 80%;
         max-width: 700px;
-    }
-
-    .mission-vision {
-        padding: 0 4rem;
-        margin-bottom: 4rem;
-        display: flex;
-        gap: 4rem;
-        justify-content: center;
-    }
-
-    .mission {
-        max-width: 500px;
-        margin-bottom: 0;
-    }
-
-    .mission-title {
-        margin-bottom: 1rem;
-    }
-
-    .mission-desc {
-        font-size: 1.1rem;
     }
 }

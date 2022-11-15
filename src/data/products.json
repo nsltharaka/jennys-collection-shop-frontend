@@ -33,9 +33,33 @@
                 "price": "160.00"
             },
             {
+                "id": "scr-maroon",
+                "image": "scrunchie-maroon.jpg",
+                "title": "scrunchie - maroon",
+                "price": "160.00"
+            },
+            {
+                "id": "scr-pink",
+                "image": "scrunchie-pink.jpg",
+                "title": "scrunchie - pink",
+                "price": "160.00"
+            },
+            {
                 "id": "scr-yellow",
                 "image": "scrunchie-yellow.jpg",
                 "title": "scrunchie - yellow",
+                "price": "160.00"
+            },
+            {
+                "id": "scr-white",
+                "image": "scrunchie-white.jpg",
+                "title": "scrunchie - white",
+                "price": "160.00"
+            },
+            {
+                "id": "scr-black",
+                "image": "scrunchie-black.jpg",
+                "title": "scrunchie - black",
                 "price": "160.00"
             }
         ]
