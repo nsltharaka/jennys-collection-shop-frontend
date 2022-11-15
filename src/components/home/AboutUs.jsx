@@ -5,8 +5,11 @@ export default function AboutUs() {
         <section className="aboutUs">
             <div className="aboutUs-text">
                 <h1 className="aboutUs-title">About us</h1>
-                <p className="aboutUs-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae cum iste ex dignissimos. Dolore voluptatem suscipit quo maiores tempora quia tempore deleniti, architecto dignissimos aspernatur ex cumque provident consequuntur quae!</p>
-                <p className="aboutUs-description"> architecto dignissimos aspernatur ex cumque provident consequuntur quae!</p>
+                <p className="aboutUs-description">We're based in Negombo, Sri Lanka and create pieces that make you feel confident, fabulous and amazing in. Our handmade pieces are sustainably created in Sri Lanka from high quality fabrics. All our fabrics and materials are sourced and designed by local textile designers. We choose fabrics that maintain healthy hair care.
+                </p>
+                <p className="aboutUs-description">
+                    We are female founded and donate a percentage of our sales to a female run & focused charity each month.
+                </p>
                 <Link to="/about">
                     <button className="aboutUs-button">read more</button>
                 </Link>

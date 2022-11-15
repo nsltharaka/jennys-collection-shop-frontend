@@ -3,24 +3,24 @@
         "id": 1,
         "image": "scrunchie.jpg",
         "title": "Scrunchies",
-        "description": "an adjustable scrunchie"
+        "description": "Scrunchies are daily hair essentials and a perfect wrist accessory to style your look."
     },
     {
         "id": 2,
         "image": "tail_scrunchie.jpg",
         "title": "Tail Scrunchies",
-        "description": "Lorem ipsum dolor sit amet consr adipisicing elit. Labore, in quis minus alias"
+        "description": "a little more than a simple scrunchie. a tail scrunchie will give you a cooler look."
     },
     {
         "id": 3,
         "image": "WoolBand.jpg",
         "title": "Hair Ties",
-        "description": "a simple hair band"
+        "description": "simple, comfortable and hair friendly tie."
     },
     {
         "id": 4,
         "image": "head_band.jpg",
         "title": "Head Bands",
-        "description": "a simple Head band"
+        "description": "comfortable, stylish head band."
     }
 ]

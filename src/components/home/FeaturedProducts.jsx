@@ -15,7 +15,8 @@ export default function FeaturedProducts() {
         <section className="featured_products">
             <div className="featured_products-text">
                 <h1 className="featured_products-title">Our featured products</h1>
-                <p className="featured_products-description">Lorem ipsum dolor sit amet, cons adipisicing elit. Corporis, esse maxime suscipit ab qui facere nulla voluptas accusamus magnam voluptatibus inventore provident. Molestias vero quasi nemo vel provident porro unde?</p>
+                <p className="featured_products-description">Hair accessories by Jenny's Collection to make the perfect daily hairstyle. From fabulous headbands to velvet scrunchies and hair ties, our range of handmade hair accessories has something for every occasion and hair type.
+                </p>
                 <Link to="/products">
                     <button className="featured_products-button">See All</button>
                 </Link>
