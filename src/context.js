@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import items from "./data/products.json"
 
 const AppContext = createContext()
@@ -12,7 +12,12 @@ const AppContextProvider = ({ children }) => {
     const [searchTerm, setSearchTerm] = useState("");
 
     // cart items
-    const [cartItems, setCartItems] = useState([]);
+    const [cartItems, setCartItems] = useState(() => JSON.parse(localStorage.getItem("userCart") || []))
+
+    // cart saved to the localStorage
+    useEffect(() => {
+        localStorage.setItem("userCart", JSON.stringify(cartItems))
+    }, [cartItems])
 
     return (
         <AppContext.Provider value={
