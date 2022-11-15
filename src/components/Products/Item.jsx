@@ -1,7 +1,10 @@
+import { useState } from "react"
 import { FaCartPlus } from "react-icons/fa"
 import useAppContext from "../../useAppContext"
 
 export default function Item({ id, image, title, price }) {
+
+    const [buttonText, setButtonText] = useState("Add To Cart")
 
     const { cartItems, setCartItems } = useAppContext()
 
@@ -22,6 +25,10 @@ export default function Item({ id, image, title, price }) {
             }, ...prev])
         }
 
+        setButtonText("Added")
+        setTimeout(() => {
+            setButtonText("Add To Cart")
+        }, 500);
     }
 
     return (
@@ -35,7 +42,7 @@ export default function Item({ id, image, title, price }) {
                 <h3 className="item-title">{title}</h3>
                 <p className="item-price">LKR {price}</p>
                 <button className="item-add--button" onClick={() => handleAddToCart(id)}>
-                    <FaCartPlus className="item-add--icon" />Add To Cart
+                    <FaCartPlus className="item-add--icon" />{buttonText}
                 </button>
             </div>
         </div>
