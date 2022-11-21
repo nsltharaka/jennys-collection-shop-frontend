@@ -1,14 +1,22 @@
 import Product from "./Product";
 import featured from "../../data/featuredProducts.json"
 import { Link } from "react-router-dom";
+import useAppContext from "../../useAppContext"
 
 export default function FeaturedProducts() {
+
+    const { setSearchTerm } = useAppContext();
+
+    const handleClick = (title) => {
+        setSearchTerm(title)
+    }
 
     const products = featured.map(product => <Product
         key={product.id}
         image={product.image}
         title={product.title}
         description={product.description}
+        handleClick={handleClick}
     />)
 
     return (
