@@ -29,6 +29,38 @@ header {
     border-bottom: 2px solid black;
 }
 
+.product-links {
+    position: relative;
+}
+
+.links {
+    /* border: 1px solid red; */
+    box-shadow: 0px 1px 10px 0px grey;
+    display: none;
+    position: absolute;
+    top: 1.7rem;
+    width: max-content;
+    line-height: 2rem;
+    background-color: white;
+    z-index: 1;
+}
+
+.product-links:hover .links {
+    display: block;
+
+}
+
+.link {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-inline: 1rem;
+}
+
+.link:hover {
+    background-color: var(--clr-secondary);
+    cursor: pointer;
+}
+
 /* end-navigation bar */
 
 /* shortcuts */

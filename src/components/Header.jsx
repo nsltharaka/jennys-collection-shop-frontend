@@ -7,7 +7,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 export default function Header() {
 
-    const { mobileNavOpen, setMobileNavOpen } = useAppContext()
+    const { mobileNavOpen, setMobileNavOpen, setSearchTerm } = useAppContext()
 
     const toggle = () => {
         setMobileNavOpen(prev => !prev)
@@ -30,8 +30,24 @@ export default function Header() {
                     <li className="navBar-item" onClick={closeNav}>
                         <NavLink to="/about" >About Us</NavLink>
                     </li>
-                    <li className="navBar-item" onClick={closeNav}>
-                        <NavLink to="/products" >Products</NavLink>
+                    <li className="navBar-item product-links" onClick={() => { closeNav(); setSearchTerm(""); }}>
+                        <NavLink to="/products" >Products ▾</NavLink>
+                        <div className="links">
+                            <ul>
+                                <li className='link' onClick={(e) => { e.stopPropagation(); setSearchTerm("scrunchie") }}>
+                                    <Link to="/products">scrunchies</Link>
+                                </li>
+                                <li className='link' onClick={(e) => { e.stopPropagation(); setSearchTerm("tail scrunchie") }}>
+                                    <Link to="/products">tail scrunchies</Link>
+                                </li>
+                                <li className='link' onClick={(e) => { e.stopPropagation(); setSearchTerm("head band") }}>
+                                    <Link to="/products">head bands</Link>
+                                </li>
+                                <li className='link' onClick={(e) => { e.stopPropagation(); setSearchTerm("hair tie") }}>
+                                    <Link to="/products">hair ties</Link>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </nav>
