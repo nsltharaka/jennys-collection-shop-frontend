@@ -36,7 +36,7 @@ export default function Header() {
                 </ul>
             </nav>
             <div className="shortcuts">
-                <a href="https://www.instagram.com/_the_hanger__lk" target="_blank" rel="noreferrer">
+                <a href="#contact">
                     <button className="shortcut-button">
                         <BsSuitHeart />
                     </button>

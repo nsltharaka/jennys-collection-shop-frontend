@@ -12,14 +12,15 @@ export default function Products() {
             (obj, i) => <ItemsSection
                 key={i}
                 category={obj.category}
-                data={obj.items}
+                data={obj.items.slice(0, 5)}
             />
         )
     }
 
     const showResults = (term) => {
 
-        const filteredComponents = items.flatMap(obj => obj.items.filter(i => i.title.includes(term)))
+        const reg = new RegExp(`(^${term}) | ${term}$`)
+        const filteredComponents = items.flatMap(obj => obj.items.filter(i => reg.test(i.title)))
 
         return (<ItemsSection
             key={"search_results"}

@@ -9,7 +9,7 @@ export default function Footer() {
     return (
         <footer>
             <div className="footer-content">
-                <div className="column contact-us-form">
+                <div id="contact" className="column contact-us-form">
                     <form>
                         <h3>Contact Us</h3>
                         <p>send us a message</p>

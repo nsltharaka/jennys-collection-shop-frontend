@@ -220,6 +220,7 @@ textarea {
         flex-direction: row;
         padding-left: 4rem;
         padding-right: 4rem;
+        padding-bottom: 1rem;
     }
 
     .column {
@@ -232,6 +233,18 @@ textarea {
 
     .column h3 {
         font-size: 1.3rem;
+    }
+
+    .contact-us-form {
+        flex-basis: 20%;
+    }
+
+    .contact-us-form textarea {
+        height: 5rem;
+    }
+
+    .quick-links li {
+        font-size: .9rem;
     }
 
     .social-links {
