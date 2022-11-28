@@ -19,15 +19,26 @@ export default function Footer() {
                         <button className="form-submit-button" onClick={e => e.preventDefault()}>Submit</button>
                     </form>
                 </div>
-                <div className="column quick-links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/products">Products</Link></li>
-                        <li><Link to="/about">About Us</Link></li>
-                    </ul>
+                <div className=" column links-wrapper">
+                    <div className="quick-links">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/products">Products</Link></li>
+                            <li><Link to="/about">About Us</Link></li>
+                            <li><Link to="/cart">Cart</Link></li>
+                        </ul>
+                    </div>
+                    <div className="quick-links social-links">
+                        <h3>Connect with us</h3>
+                        <ul className="">
+                            <li><AiFillFacebook /><a href="facebook.com">facebook</a></li>
+                            <li><AiFillInstagram /><a href="instagram.com">instagram</a></li>
+                            <li><RiWhatsappFill /><a href="wa.me">whatsapp</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div className="column social-links">
+                <div className="column other-links">
                     <div className="footer-logo">
                         <p className="footer-logo-main">Jenny's</p>
                         <p className="footer-logo-sub">collection</p>
@@ -35,7 +46,7 @@ export default function Footer() {
                     <div className="contact-info">
                         <p><ImPhone className="icon" /> 031-2233667</p>
                         <p><HiMail className="icon" /> jennys-shop@gmail.com</p>
-                        <ul>
+                        <ul className="contact-info--icons">
                             <li><AiFillFacebook /></li>
                             <li><AiFillInstagram /></li>
                             <li><RiWhatsappFill /></li>
