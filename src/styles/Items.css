@@ -28,6 +28,12 @@
     outline: none;
 }
 
+.search--clear-icon {
+    cursor: pointer;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+
 /* ************ */
 /* Item section */
 /* ************ */
