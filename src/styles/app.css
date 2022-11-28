@@ -182,11 +182,7 @@ textarea {
 
 .contact-info {
     font-size: .9rem;
-}
-
-.contact-info .icon {
-    font-size: 1rem;
-    margin-right: 10px;
+    line-height: 1.5rem;
 }
 
 .contact-info p {
@@ -194,7 +190,16 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: .2rem;
+    margin-bottom: .5rem;
+}
+
+.contact-info .icon {
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+.icon-address {
+    align-self: baseline;
 }
 
 .contact-info ul {
@@ -311,7 +316,6 @@ textarea {
     }
 
     .other-links {
-        margin-top: -3.6rem;
         align-items: center;
     }
 

@@ -2,6 +2,7 @@ import { ImPhone } from "react-icons/im"
 import { HiMail } from "react-icons/hi"
 import { RiWhatsappFill } from "react-icons/ri"
 import { AiFillFacebook, AiFillInstagram } from "react-icons/ai"
+import { FaAddressBook } from "react-icons/fa"
 import { Link } from "react-router-dom"
 
 
@@ -46,6 +47,7 @@ export default function Footer() {
                     <div className="contact-info">
                         <p><ImPhone className="icon" /> 031-2233667</p>
                         <p><HiMail className="icon" /> jennys-shop@gmail.com</p>
+                        <p><FaAddressBook className="icon icon-address" /> NO. 07, Kimbulapitiya Road, <br /> Negombo.</p>
                         <ul className="contact-info--icons">
                             <li><AiFillFacebook /></li>
                             <li><AiFillInstagram /></li>
