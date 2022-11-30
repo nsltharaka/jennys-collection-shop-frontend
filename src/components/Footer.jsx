@@ -33,9 +33,9 @@ export default function Footer() {
                     <div className="quick-links social-links">
                         <h3>Connect with us</h3>
                         <ul className="">
-                            <li><AiFillFacebook /><a href="facebook.com">facebook</a></li>
-                            <li><AiFillInstagram /><a href="instagram.com">instagram</a></li>
-                            <li><RiWhatsappFill /><a href="wa.me">whatsapp</a></li>
+                            <li><AiFillFacebook /><a href="https://www.facebook.com/profile.php?id=100063641507470" target="_blank" rel="noreferrer">facebook</a></li>
+                            <li><AiFillInstagram /><a href="https://www.instagram.com/_the_hanger__lk/" target="_blank" rel="noreferrer">instagram</a></li>
+                            <li><RiWhatsappFill /><a href="http://wa.me/94765741521" target="_blank" rel="noreferrer">whatsapp</a></li>
                         </ul>
                     </div>
                 </div>
