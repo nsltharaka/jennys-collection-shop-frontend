@@ -99,6 +99,7 @@
     border-radius: 5px;
     cursor: pointer;
     background-color: var(--clr-secondary);
+    font-family: var(--default-font);
     font-size: .85rem;
     font-weight: 700;
 }
