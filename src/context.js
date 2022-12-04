@@ -3,7 +3,7 @@ import items from "./data/products.json"
 
 const AppContext = createContext()
 
-const AppContextProvider = ({ children }) => {
+function AppContextProvider({ children }) {
 
     // mobile navigation bar open or close
     const [mobileNavOpen, setMobileNavOpen] = useState(false)
